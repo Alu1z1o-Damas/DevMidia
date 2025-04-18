@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #f4f0e5;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+}
+.cabecalho {
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+nav::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #e7a165;
+    left: 0;
+    top: 40px; 
+    margin: 30px;
+}
+.logotipo {
+    width: 200px;
+}
+a {
+    margin: 0 10px;
+    color: #542f0c;
+}
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px; 
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 26px;
+    color: #e7a165;
+    margin: 10px;
+}
+
+#produtos {
+    background-color: #de8e37;
+    width: 850px;
+    padding: 20px;
+    line-height: 38px;
+    color:  white;
+    text-align: center;
+    margin: 20px;
+    font-size: 22px;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 26px;
+    padding: 10px;
+}
+h4 {
+    font-weight: 800;
+    padding: 15px;
+    font-size: 24px;
+}
+.paes {
+    width: 500px;
+}
+.bolos {
+    width: 500px;
+
+}
+
+#contato {
+    text-align: center;
+    line-height: 38px;
+    font-size: 22px;
+}
+span {
+    font-weight: 600;
+}
