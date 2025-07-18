@@ -1,0 +1,2 @@
+nome = "Fulano";
+print('nome')
